@@ -1,0 +1,72 @@
+@media only screen and (min-width:360px) and (max-width:490px)
+{
+    body{
+        height: 120vh;
+        overflow-y: hidden;
+    }
+    
+    .container{
+        height: 45vh;
+    }
+
+    #messageInp{
+        width: 80%;
+        height: 25px;
+        font-size: 15px;
+    }
+    
+    .btn{
+        height: 25px;
+        width: 10%;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width:310px) and (max-width:360px)
+{
+    body{
+        height: 120vh;
+        overflow-y: hidden;
+    }
+    
+    .container{
+        height: 40vh;
+    }
+
+    #messageInp{
+        width: 70%;
+        height: 20px;
+        font-size: 15px;
+    }
+    
+    .btn{
+        height: 25px;
+        width: 12%;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:310px)
+{
+    body{
+        height: 120vh;
+        overflow-y: hidden;
+    }
+
+    .container{
+        height: 35vh;
+    }
+
+    #messageInp{
+        width: 70%;
+        height: 20px;
+        font-size: 13px;
+    }
+    
+    .btn{
+        height: 25px;
+        width: 14%;
+        font-size: 10px;
+        display: inherit;
+    }
+}
