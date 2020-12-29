@@ -9,10 +9,10 @@ const path = require('path');
 const port = process.env.PORT || 3000;
 
 // For serving static files
-app.use('/static', express.static('../static'));
+app.use('/static', express.static('./static'));
 
 app.get('/', (req, res) => {
-  res.sendFile(path.resolve('../views/index.html'));
+  res.sendFile(__dirname + '/views/index.html');
 });
 
 
